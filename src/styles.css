@@ -1,0 +1,130 @@
+
+/* src/styles/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    height: 200px;
+    
+}
+
+
+nav button {
+    background: none;
+    border: none;
+    padding: 10px 0px;
+    cursor: pointer;
+    
+}
+
+nav button:hover {
+    background-color: #ddd;
+    
+}
+
+#content{
+    align-content: center;
+    background-image: url("assets/restaurant.jpg");
+    background-size: cover;        /* Scale the background image to cover the entire element */
+    background-position: center;   
+    background-repeat: no-repeat;   /* Prevent the image from repeating */
+    background-attachment:scroll;
+    height: 100vh;
+}
+.home{
+    background-color: #a5a0a0;
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+    opacity: 0.6;
+    
+    
+}
+
+.menu {
+    padding: 20px;
+    background-color: #c49797;
+    background-image: url(assets/salon.jpg);
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: repeat;   
+    height: auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    background-color: #a5a0a0;
+    font-weight: bold;
+    width: 400px;
+    height: 500px;
+}
+.menu-item:hover{
+    opacity: 1;
+}
+
+.menu-item img {
+    width: 350px;
+   
+    height: 250px;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+    
+}
+
+.menu-item p {
+    margin: 5px 0;
+    color: #666;
+    text-align: center;
+}
+
+.menu-item .price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.contact {
+    background-color: #3d380c7c;
+    opacity: 0.8;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
